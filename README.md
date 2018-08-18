@@ -29,7 +29,10 @@ The latest release of these tools is confirmed to work with:
 * Pangu9 on 9.1
 * [qwertyoruiop's jailbreakme](https://jbme.qwertyoruiop.com/) on 9.3.x
 * extra_recipe on 10.0-10.2
-* Yalu102 (beta4 or later) on 10.0.1-10.2
+* yalu102 (beta4 or later) on 10.0.1-10.2
+* saigon on iOS 10.2.1
+* g0blin on iOS 10.3.x
+* doubleh3lix on iOS 10.x
 
 Jailbreaks that **DO NOT** seem to enable `tfp0`, and thus **DO NOT** work with kern-utils:
 
@@ -48,7 +51,7 @@ Name      | Function
 `kmap`    | Visualize the kernel address space
 `kmem`    | Dump kernel memory to the console
 `kpatch`  | Apply patches to a running kernel
-`nvpatch` | Display and patch NVRAM variables permissions
+`nvpatch` | Display and patch NVRAM variables permissions (boot-nonce etc.)
 
 ### Building
 
